@@ -1,0 +1,55 @@
+{
+    "company": {
+        "name": "InnoTech",
+        "location": {
+            "country": "India",
+            "state": "Karnataka",
+            "city": "Bangalore"
+        },
+        "employees": [
+            {
+                "id": 201,
+                "name": "Charlie Brown",
+                "role": "Backend Developer",
+                "skills": ["Java", "Spring", "Hibernate", "Python"],
+                "projects": [
+                    {
+                        "projectId": "P101",
+                        "projectName": "Microservices Architecture",
+                        "status": "Ongoing"
+                    },
+                    {
+                        "projectId": "P102",
+                        "projectName": "Database Optimization",
+                        "status": "Completed"
+                    }
+                ]
+            },
+            {
+                "id": 202,
+                "name": "Dana White",
+                "role": "UI/UX Designer",
+                "skills": ["Sketch", "Figma", "Adobe XD"],
+                "projects": [
+                    {
+                        "projectId": "P103",
+                        "projectName": "Mobile App Design",
+                        "status": "Ongoing"
+                    }
+                ]
+            }
+        ],
+        "departments": [
+            {
+                "departmentId": "D101",
+                "departmentName": "Development",
+                "head": "Charlie Brown"
+            },
+            {
+                "departmentId": "D102",
+                "departmentName": "Design",
+                "head": "Dana White"
+            }
+        ]
+    }
+}
