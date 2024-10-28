@@ -1,7 +1,7 @@
 # setup.py
-from BackEndAutomation.API import create_app
-from BackEndAutomation.API.db_config import db
-from BackEndAutomation.API.models.book_model import Book
+from API import create_app
+from API.db_config import db
+from API.models.book_model import Book
 
 
 # Import your models here

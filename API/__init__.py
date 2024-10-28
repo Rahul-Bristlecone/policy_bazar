@@ -1,6 +1,6 @@
 from flask import Flask
 from .blueprints import register_blueprints
-from BackEndAutomation.API.db_config import db
+from API.db_config import db
 
 
 # application factory pattern or factory function - create_app()

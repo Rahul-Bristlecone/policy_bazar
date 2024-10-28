@@ -1,5 +1,5 @@
 from flask import Blueprint
-from BackEndAutomation.API.models import book_model
+from API.models import book_model
 
 # logic and code implementation of add book feature
 class AddBook:
